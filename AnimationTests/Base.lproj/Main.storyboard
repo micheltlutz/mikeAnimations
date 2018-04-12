@@ -195,6 +195,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="VWV-Dz-aXN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R54-RB-IJT">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -203,6 +204,9 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="bSR-ac-5Eq"/>
                         <segue destination="p92-Ej-JNX" kind="relationship" relationship="viewControllers" id="jC3-zQ-TLY"/>
                         <segue destination="Xvk-jQ-r5j" kind="relationship" relationship="viewControllers" id="jAF-1W-5t1"/>
+                        <segue destination="QgO-Jx-tyK" kind="relationship" relationship="viewControllers" id="nTS-gS-8Qr"/>
+                        <segue destination="P0M-wI-oIU" kind="relationship" relationship="viewControllers" id="KL6-Ov-5XY"/>
+                        <segue destination="jMB-XB-abk" kind="relationship" relationship="viewControllers" id="Ric-WW-kh4"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylg-aZ-QTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,7 +245,74 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3LR-Cg-QKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="995.35232383808102"/>
+            <point key="canvasLocation" x="-1716" y="927"/>
+        </scene>
+        <!--Page Controll-->
+        <scene sceneID="Gtc-Lv-XDF">
+            <objects>
+                <viewController id="QgO-Jx-tyK" customClass="SlideupViewController" customModule="AnimationTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fhs-JA-YOr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Vc4-r5-h69"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Page Controll" id="WW8-C7-sl8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1WM-1c-dGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978" y="927"/>
+        </scene>
+        <!--Circle-->
+        <scene sceneID="psk-za-PVX">
+            <objects>
+                <viewController id="P0M-wI-oIU" customClass="CircleProgressViewController" customModule="AnimationTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="coz-1z-piR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4H8-dj-Tvv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Circle" id="lM5-18-i05"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rYz-Y0-lEB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-116" y="927"/>
+        </scene>
+        <!--Carousel-->
+        <scene sceneID="CEQ-Sp-ZSb">
+            <objects>
+                <collectionViewController id="jMB-XB-abk" customClass="CarouselFullViewController" customModule="AnimationTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="1ZI-7k-vgl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pk0-uT-5ga">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U3u-a3-A7U">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="jMB-XB-abk" id="lCR-NO-Odr"/>
+                            <outlet property="delegate" destination="jMB-XB-abk" id="vpL-5V-Kt0"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Carousel" id="X5i-t7-5YO"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78I-u8-lTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759" y="927"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cQ1-XC-ChL">

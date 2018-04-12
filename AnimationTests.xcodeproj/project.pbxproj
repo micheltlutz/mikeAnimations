@@ -18,6 +18,9 @@
 		76341444207E8AFD007A9676 /* ShakingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76341443207E8AFD007A9676 /* ShakingTextField.swift */; };
 		76341446207E8C4E007A9676 /* CA_ShakingAndPulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76341445207E8C4E007A9676 /* CA_ShakingAndPulseViewController.swift */; };
 		76341449207E8E04007A9676 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76341448207E8E04007A9676 /* Pulsing.swift */; };
+		763D23AC207F9AFD00C9005A /* SlideupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D23AB207F9AFD00C9005A /* SlideupViewController.swift */; };
+		763D23AE207FBD4F00C9005A /* CircleProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D23AD207FBD4F00C9005A /* CircleProgressViewController.swift */; };
+		763D23B0207FEF2000C9005A /* CarouselFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D23AF207FEF2000C9005A /* CarouselFullViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		76341443207E8AFD007A9676 /* ShakingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingTextField.swift; sourceTree = "<group>"; };
 		76341445207E8C4E007A9676 /* CA_ShakingAndPulseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA_ShakingAndPulseViewController.swift; sourceTree = "<group>"; };
 		76341448207E8E04007A9676 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		763D23AB207F9AFD00C9005A /* SlideupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideupViewController.swift; sourceTree = "<group>"; };
+		763D23AD207FBD4F00C9005A /* CircleProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewController.swift; sourceTree = "<group>"; };
+		763D23AF207FEF2000C9005A /* CarouselFullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselFullViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				7634143B207E45D0007A9676 /* SecondViewController.swift */,
 				76341441207E8378007A9676 /* PopUpViewController.swift */,
 				76341445207E8C4E007A9676 /* CA_ShakingAndPulseViewController.swift */,
+				763D23AB207F9AFD00C9005A /* SlideupViewController.swift */,
+				763D23AD207FBD4F00C9005A /* CircleProgressViewController.swift */,
+				763D23AF207FEF2000C9005A /* CarouselFullViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,12 +180,15 @@
 			files = (
 				76341442207E8378007A9676 /* PopUpViewController.swift in Sources */,
 				76341444207E8AFD007A9676 /* ShakingTextField.swift in Sources */,
+				763D23B0207FEF2000C9005A /* CarouselFullViewController.swift in Sources */,
 				76341449207E8E04007A9676 /* Pulsing.swift in Sources */,
+				763D23AC207F9AFD00C9005A /* SlideupViewController.swift in Sources */,
 				7634143C207E45D0007A9676 /* SecondViewController.swift in Sources */,
 				7634142C207E43C7007A9676 /* ViewController.swift in Sources */,
 				76341446207E8C4E007A9676 /* CA_ShakingAndPulseViewController.swift in Sources */,
 				7634142A207E43C7007A9676 /* AppDelegate.swift in Sources */,
 				7634143E207E4EB7007A9676 /* CircularTransition.swift in Sources */,
+				763D23AE207FBD4F00C9005A /* CircleProgressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
